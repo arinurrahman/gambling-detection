@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+footer {
+    margin-top: 20px;
+    background-color: #e9ecef;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.card-body {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.result-box {
+    border: 1px solid;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.result-box.red {
+    border-color: red;
+    background-color: #f8d7da;
+    color: red;
+}
+
+.result-box.green {
+    border-color: green;
+    background-color: #d4edda;
+    color: green;
+}
+
+.result-box.yellow {
+    border-color: yellow;
+    background-color: #fff3cd;
+    color: orange;
+}
